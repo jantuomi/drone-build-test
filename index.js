@@ -1,1 +1,1 @@
-console.log('Yea boi');
+module.exports = () => 'Yea boi';

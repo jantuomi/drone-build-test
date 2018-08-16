@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-      "test": "eslint .",
-      "start": "node index.js"
+    "test": "ava",
+    "lint": "eslint .",
+    "start": "node index.js"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "ava": "1.0.0-beta.7",
     "eslint": "^5.3.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0"
